@@ -45,11 +45,7 @@ button {
   color: #615c5c;
 }
 #or-line {
-  /* border-bottom: 1px solid darkgray; */
   display: flex;
-  /* justify-content: stretch; */
-}
-#or-line {
   width: 60%;
   margin: auto;
 }
