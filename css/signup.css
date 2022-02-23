@@ -1,0 +1,42 @@
+/* ----------------------------- */
+/* ----- SignUp Page Start ----- */
+
+.input-taking {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+h2 {
+  margin-top: 40px;
+}
+form {
+  width: 60%;
+  margin: auto;
+}
+form input {
+  display: block;
+  margin: 60px auto;
+  width: 400px;
+  font-size: 18px;
+}
+.typing {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+}
+::placeholder {
+  color: rgb(167, 165, 165);
+}
+a {
+  color: rgb(119, 169, 185);
+}
+#btn {
+  padding: 15px 0;
+  color: white;
+  background-color: #989898;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ----- SignUp Page End ----- */
+/* --------------------------- */
