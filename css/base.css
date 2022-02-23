@@ -66,6 +66,10 @@ a {
   box-shadow: none;
   position: relative;
 }
+.main-right-nav input:focus{
+  background-color: white;
+  outline: 1px solid black;
+}
 .main-right-nav button {
   border: 1px solid transparent;
   border-left: 1px solid grey;

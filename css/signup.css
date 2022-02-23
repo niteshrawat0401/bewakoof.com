@@ -24,10 +24,14 @@ form input {
   border-bottom: 1px solid lightgray;
   text-align: left;
 }
+.typing:focus {
+  border-bottom: 1px solid black;
+  outline: none;
+}
 ::placeholder {
   color: rgb(167, 165, 165);
 }
-a {
+form a {
   color: rgb(119, 169, 185);
 }
 #btn {

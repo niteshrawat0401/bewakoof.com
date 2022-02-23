@@ -1,8 +1,5 @@
 /* ---------------------------- */
 /* ----- Login Page Start ----- */
-p a {
-  color: #42a2a2;
-}
 
 .login {
   display: flex;
@@ -20,6 +17,9 @@ img {
 }
 h4 {
   color: darkgray;
+}
+[type=tel]:focus{
+  outline: none;
 }
 .input input {
   width: 50%;
@@ -46,6 +46,9 @@ button {
   font-weight: bold;
   color: #615c5c;
 }
+[type=submit]{
+  cursor: pointer;
+}
 #or-line {
   display: flex;
   width: 60%;
@@ -61,6 +64,9 @@ button {
   margin: 20px 0;
   width: 10%;
 }
+#upper-buttons button{
+  cursor: pointer;
+}
 #lower-buttons button {
   width: 25%;
 }
@@ -72,6 +78,10 @@ p {
   position: relative;
   bottom: -30px;
   color: darkgray;
+}
+
+p a {
+  color: #42a2a2;
 }
 
 /* ----- Login Page End ----- */
