@@ -11,7 +11,7 @@ loginData = JSON.parse(localStorage.getItem("userData")) || [];
 //checks is the password is valid
 //if password and username doesnt exist it creates new
 function processUser(event) {
-  event.preventDefault();
+  //event.preventDefault();
 
   let fil = null;
   let email = document.querySelector("#email").value;
@@ -42,7 +42,7 @@ function processUser(event) {
     //If the Username and Password match
     else if (check[0].password == pass) {
       alert("Logging in");
-      window.location = "./nav.html";
+      window.location = "/index.html";
     }
   }
   //If input form has username or password missing
