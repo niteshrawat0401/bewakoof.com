@@ -19,8 +19,8 @@ function slidingImg(){
 }
 
  
-function toMenPage(){
-    window.location.href = "men.html"
+function toWomenPage(){
+    window.location.href = "women.html"
 }    
 
 

@@ -3,10 +3,10 @@ body{
     margin: 0;
 }
 .second,.third,.fourth,.fifth,.sixth,.seventh{
-    width: 90%;
+    width: 93%;
     margin: 0px auto ;
 }
- img{
+img{
     cursor: pointer;
 }
 /* FIRST */
@@ -29,7 +29,7 @@ body{
 
   }
 
-/* SECOND */
+  /* SECOND */
 
 .second_top {
     margin: 0px auto 20px;
@@ -43,15 +43,16 @@ body{
     grid-template-columns: repeat(8,1fr);
     gap: 30px;
 }
-.second_bottom img{
-    width: 100%;
-    border-radius: 10px;
-}
 .second_bottom p {
     font-size: 10px;
     text-align: center;
     font-weight: bold;
     margin-top: -2px;
+}
+
+.second_bottom img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* THIRD */
@@ -71,13 +72,13 @@ body{
 
 /* FOURTH */
 .fourth_main{
-   display: grid;
-   grid-template-columns: repeat(6,1fr);
-}
-.fourth_main img{
-    width: 100%;
-}
-
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+ }
+ .fourth_main img{
+     width: 100%;
+ }
+ 
 /* FIFTH  */
 .fifth_box{
     display: grid;
@@ -87,7 +88,6 @@ body{
 .fifth_box img{
     width: 100%;
 }
-
 /* SIXTH  */
 .sixth{
     position: relative;
