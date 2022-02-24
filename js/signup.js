@@ -11,26 +11,21 @@ loginData = JSON.parse(localStorage.getItem("userData")) || [];
 //checks is the password is valid
 //if password and username doesnt exist it creates new
 function processUser(event) {
-  // event.preventDefault();
+  event.preventDefault();
 
   let fil = null;
   let email = document.querySelector("#email").value;
   let pass = document.querySelector("#password").value;
   if (email != "" && pass != "") {
-    let check = 0;
-    for (let i = 0; i < loginData.length; i++) {
-      if (loginData[i].username == email) {
-        check = 1;
-        if (loginData[i].password == pass) {
-          check = 2;
-          break;
-        }
+    let check = loginData.filter(function (element, index) {
+      if (element.username == email) {
+        return element;
       }
-    }
+    });
 
     //If username and passward dont exist
     //it will create new user
-    if (check == 0) {
+    if (check[0] == null) {
       let objUser = {
         username: email,
         password: pass,
@@ -41,13 +36,13 @@ function processUser(event) {
       alert("New User Created");
     }
     //If the password wont match
-    else if (check == 1) {
+    else if (check[0].password != pass) {
       alert("Wrong Password");
     }
     //If the Username and Password match
-    else if (check == 2) {
+    else if (check[0].password == pass) {
       alert("Logging in");
-      window.location = "https://www.bewakoof.com/";
+      window.location = "./nav.html";
     }
   }
   //If input form has username or password missing
