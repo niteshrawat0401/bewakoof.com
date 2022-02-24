@@ -1,0 +1,18 @@
+.cart-page {
+  border: 1px solid red;
+}
+
+.upper-cart {
+  border: 1px solid blue;
+  width: 50%;
+  margin: auto;
+}
+
+#items {
+  margin: auto;
+}
+#items img {
+  border: 1px solid green;
+  margin: auto;
+  width: 30%;
+}
