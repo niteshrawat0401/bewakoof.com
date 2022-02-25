@@ -42,7 +42,7 @@ function processUser(event) {
     //If the Username and Password match
     else if (check[0].password == pass) {
       alert("Logging in");
-      window.location = "/index.html";
+      window.location = "./index.html";
     }
   }
   //If input form has username or password missing
