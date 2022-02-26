@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/signup.css" />
   </head>
   <body>
+    <!-- ----------------------------  -->
     <!--  ----- Navbar Bar Start ----- -->
     <div id="navigation">
       <!-- Navbar Top -->
@@ -47,7 +49,6 @@
             type="text"
             placeholder="Search by product, category or collection"
           />
-          <a href="./login.html"><button>Login</button></a>
           <div class="main-nav-cart">
             <a href="">
               <img
@@ -55,8 +56,8 @@
                 alt="wish-list"
               />
             </a>
-            <a href="./cart.html">
-              <img
+            <a href="./cart.html"
+              ><img
                 src="https://images.bewakoof.com/web/shopping-bag.png"
                 alt="shopping-bag"
               />
@@ -64,16 +65,41 @@
           </div>
         </div>
       </div>
-
-      <!-- Navbar Bottom-->
-      <div class="bottom-nav">
-        <a href="./men.html">MEN</a>
-        <a href="./home_women.html">WOMEN</a>
-        <a href="">ACCESSORIES</a>
-      </div>
     </div>
 
     <script src="./js/nav.js"></script>
+
     <!-- ----- Navbar Bar End ----- -->
+    <!-- -------------------------  -->
+
+    <!-- -----------------------------  -->
+    <!--  ----- Signup Page Start ----- -->
+
+    <div class="input-taking">
+      <h2>Log in to your account</h2>
+      <form action="">
+        <input
+          class="typing"
+          id="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          class="typing"
+          id="password"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <a href="">Forgot Password?</a>
+        <input id="btn" type="submit" value="LOGIN" />
+      </form>
+    </div>
+
+    <!-- ----- Signup Page End ----- -->
+    <!-- --------------------------  -->
   </body>
 </html>
+
+<script src="./js/signup.js"></script>
