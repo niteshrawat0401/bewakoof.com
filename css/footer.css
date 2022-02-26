@@ -1,0 +1,125 @@
+#Body{
+    background: #181818;
+}
+.f1{
+    margin: 40px 40px;
+    color: gold;
+    line-height: 1px;
+    padding-top: 3%;
+}
+.f2{
+    display: flex;
+    width: 90%;
+    margin: 40px 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col1 ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.col2 li {
+    list-style: none;
+    margin-bottom: 5px;
+    line-height: 23px;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 5px;  
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+.col1>p{
+    color: gold;
+    margin-bottom: 5px;
+}
+.icons>span>i{
+    color: white;
+    margin-right: 20px;
+}
+form input{
+    background-color: #181818;
+    border: transparent;
+    border-bottom: 1px solid gold;
+    font-size: 18px;
+
+}
+button{
+    background-color: gold;
+    border: transparent;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+i{
+    padding-right: 10px;
+}
+hr{
+    width: 95%;
+    justify-content: center;
+}
+h3{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2{
+
+    color: #51ccc4;
+}
+.row1{
+    width: 96%;
+    margin: auto;
+}
+.row2>p{
+    color: white;
+    line-height: 30px;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    .f1{
+        margin: auto;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .f2{
+        flex-wrap: wrap;
+    }
+    .col1 ul{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+
+    .col2>p{
+        color: gold;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+    .f1{
+        margin: auto;
+        padding-top: 4%;
+        text-align: center;
+    }
+    .f2{
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+    .col1>p{
+        color: gold;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+  
+}
