@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/women.css" />
+
+    <style>
+      /* Footer Style Start*/
+
+      .container1 {
+        margin: 40px 40px;
+        color: gold;
+        line-height: 1px;
+      }
+      .container1 h1 {
+        padding-top: 50px;
+      }
+      .container {
+        display: flex;
+        width: 90%;
+        margin: 40px 40px;
+        justify-content: space-between;
+      }
+      .icons > span > i {
+        color: white;
+        margin-right: 20px;
+      }
+      ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .footer1 > p {
+        color: gold;
+      }
+
+      ul li {
+        list-style: none;
+        margin-bottom: 5px;
+        line-height: 23px;
+      }
+
+      form input {
+        background-color: #181818;
+        border: transparent;
+        border-bottom: 1px solid gold;
+        font-size: 18px;
+      }
+      button {
+        background-color: gold;
+        border: transparent;
+        padding: 5px 15px;
+        cursor: pointer;
+      }
+      i {
+        padding-right: 10px;
+      }
+      hr {
+        width: 95%;
+        justify-content: center;
+      }
+      h3 {
+        color: white;
+      }
+      h2 {
+        color: #51ccc4;
+      }
+      .description-row {
+        width: 96%;
+        margin: auto;
+      }
+      .description-row > p {
+        color: white;
+        line-height: 20px;
+      }
+
+      /* Footer Style End*/
+    </style>
+  </head>
+  <body>
+    <!-- ----------------------------  -->
+    <!--  ----- Navbar Bar Start ----- -->
+    <div id="navigation">
+      <!-- Navbar Top -->
+      <div class="top-nav">
+        <!-- Navbar Top-left -->
+        <div class="top-left-nav">
+          <a href="">Offers</a>
+          <a href="">Fanbook</a>
+          <a href="">Download App</a>
+          <a href="">TriBe Membership</a>
+        </div>
+        <!-- Navbar Top-Right -->
+        <div class="top-right-nav">
+          <a href="">Contact Us</a>
+          <a href="">Track Order</a>
+        </div>
+      </div>
+
+      <!-- Navbar Main-->
+      <div class="main-nav">
+        <div class="main-left-nav">
+          <a href="./index.html">
+            <img
+              src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"
+              alt="Bewakoof-Home-Logo"
+            />
+          </a>
+          <div class="main-center-nav">
+            <a href="./men.html">MEN</a>
+            <a href="./women.html">WOMEN</a>
+            <a href="./mobile.html">MOBILE COVERS</a>
+          </div>
+        </div>
+
+        <div class="main-right-nav">
+          <input
+            type="text"
+            placeholder="Search by product, category or collection"
+          />
+          <div class="main-nav-cart">
+            <a href="">
+              <img
+                src="https://images.bewakoof.com/web/heart-wishlist.png"
+                alt="wish-list"
+              />
+            </a>
+            <a href="./cart.html"
+              ><img
+                src="https://images.bewakoof.com/web/shopping-bag.png"
+                alt="shopping-bag"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/nav.js"></script>
+
+    <!-- ----- Navbar Bar End ----- -->
+    <!-- -------------------------  -->
+
+    <div id="container">
+      <!-- -----------------location of current directory-------------------- -->
+      <div>
+        <a href="./index.html" class="underescoreremover">Home</a
+        >&nbsp;/&nbsp;<a href="./women.html">Women</a>&nbsp;/&nbsp;<span
+          >T-Shirt Women Clothing</span
+        >
+      </div>
+
+      <!--  ------------------Type of clothing------------------------------- -->
+      <div><h2 id="len">Women Clothing</h2></div>
+
+      <!--  -------------------Filters and  Sort by-------------------------- -->
+      <div class="FandSort">
+        <div>FILTERS</div>
+        <div class="dropdownfs">
+          <span style="margin-right: 5px">SORT BY</span>
+          <select class="dropbtnfs" tabindex="-4">
+            <option value=""><a href="#">Popular</a></option>
+            <option value=""><a href="#">New</a></option>
+            <option value=""><a href="#">Price: High to Low</a></option>
+            <option value=""><a href="#">Price: Low to High</a></option>
+          </select>
+        </div>
+      </div>
+
+      <!-- ------------------------Main working Area------------------------------------ -->
+      <div id="innercont">
+        <div id="cat">
+          <div class="dropdownf">
+            <div onclick="myFunction1()" class="dropbtnf">Categories</div>
+            <div id="myDropdownf1" class="dropdown-contentf">
+              <a href="./wshirts.html">T-shirt</a>
+              <a href="">Top</a>
+              <a href="">Jeans</a>
+              <a href="">Jacket</a>
+              <a href="">Nightsuits</a>
+              <a href="">Dress</a>
+              <a href="">Sweatshirt</a>
+              <a href="">Kurta</a>
+              <a href="">Pyjama</a>
+              <a href="">Hoodies</a>
+              <a href="">Shorts</a>
+              <a href="">Top & Pyjama Set</a>
+              <a href="">Joggers</a>
+              <a href="">Boxers</a>
+              <a href="">Kurta Set</a>
+              <a href="">Leggings</a>
+              <a href="">Top & Shorts Set</a>
+              <a href="">Top & Payjama Set</a>
+              <a href="">Short Nighty</a>
+              <a href="">Tights</a>
+              <a href="">Jumpsuit</a>
+              <a href="">Track Pant</a>
+              <a href="">Boxer Combo</a>
+              <a href="">Fashion Tops</a>
+              <a href="">Sleepshirts</a>
+              <hr />
+            </div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction2()" class="dropbtnf">Sizes</div>
+            <div id="myDropdownf2" class="dropdown-contentf">
+              <a href="">XS</a>
+              <a href="">S</a>
+              <a href="">M</a>
+              <a href="">L</a>
+              <a href="">XL</a>
+              <a href="">2XL</a>
+              <a href="">26</a>
+              <a href="">28</a>
+              <a href="">30</a>
+              <a href="">32</a>
+              <a href="">34</a>
+              <a href="">36</a>
+              <a href="">38</a>
+              <a href="">40</a>
+              <hr />
+            </div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction3()" class="dropbtnf">Brand</div>
+            <div id="myDropdownf3" class="dropdown-contentf">
+              <a href="">Bewakoof</a>
+              <a href="">Dillinger</a>
+              <a href="">Clovia</a>
+              <a href="">Campus Sutra</a>
+              <a href="">Aks</a>
+              <a href="">Bannosswagger</a>
+              <a href="">Difference Of Opinion</a>
+              <a href="">Style Quotient</a>
+              <a href="">Harpa</a>
+              <a href="">Dolce Crudo</a>
+              <a href="">Miss Chase</a>
+              <a href="">Alcis</a>
+              <a href="">Freakins</a>
+              <a href="">High Star</a>
+              <a href="">Sweet Dreams</a>
+              <a href="">The Dry State</a>
+              <a href="">Faballey</a>
+              <a href="">Ziyaa</a>
+              <a href="">Be Awara</a>
+              <a href="">Quaratine</a>
+              <hr />
+            </div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction5()" class="dropbtnf">Design</div>
+            <div id="myDropdownf5" class="dropdown-contentf">
+              <a href="">Printed</a>
+              <a href="">Solid</a>
+              <a href="">Typography</a>
+              <a href="">Plain</a>
+              <a href="">Grapkic Print</a>
+              <a href="">Aop</a>
+              <a href="">Floral Print</a>
+              <a href="">Striped</a>
+              <a href="">All Over Printed</a>
+              <a href="">Color Block</a>
+              <a href="">Checked</a>
+              <a href="">Gerometric Print</a>
+              <a href="">Abstract</a>
+              <a href="">Digital Print</a>
+              <a href="">Ethic Motif</a>
+              <a href="">Tie & Dye</a>
+              <a href="">Polka Print</a>
+              <a href="">Colourblocked</a>
+              <a href="">Comousflage</a>
+              <a href="">Washed</a>
+              <a href="">Cut & Sew</a>
+              <a href="">Embellished</a>
+              <a href="">Embroidered</a>
+              <a href="">Self Design</a>
+              <a href="">Animal Print</a>
+              <hr />
+            </div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction6()" class="dropbtnf">Fit</div>
+            <div id="myDropdownf6" class="dropdown-contentf"></div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction7()" class="dropbtnf">Sleeves</div>
+            <div id="myDropdownf7" class="dropdown-contentf"></div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction8()" class="dropbtnf">Neck</div>
+            <div id="myDropdownf8" class="dropdown-contentf"></div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction9()" class="dropbtnf">Rating</div>
+            <div id="myDropdownf9" class="dropdown-contentf"></div>
+          </div>
+          <div class="dropdownf">
+            <div onclick="myFunction10()" class="dropbtnf">Discounts</div>
+            <div id="myDropdownf10" class="dropdown-contentf"></div>
+          </div>
+        </div>
+        <div id="maindata"></div>
+      </div>
+    </div>
+
+    <!-- ------------------------  -->
+    <!--  ----- Footer Start ----- -->
+    <div style="background-color: black">
+      <div class="container1">
+        <h1>Bewakoof</h1>
+      </div>
+
+      <div class="container">
+        <div class="footer1">
+          <p>CUSTOMER SERVICE</p>
+          <ul>
+            <li><a href="1.html">Contact Us</a></li>
+            <li><a href="">Track Order</a></li>
+            <li><a href="">Return Order</a></li>
+            <li><a href="">Cancel Order</a></li>
+          </ul>
+        </div>
+        <div class="footer1">
+          <p>COMPANY</p>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">We're Hiring</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer1">
+          <p>CONNECT WITH US</p>
+          <ul>
+            <li>
+              <a href=""
+                ><i class="fab fa-facebook-square"></i> 4.7M People Like this</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i> 1M Followers</a>
+            </li>
+            <div class="icons">
+              <span>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fab fa-apple"></i>
+              </span>
+            </div>
+          </ul>
+        </div>
+        <div class="footer1">
+          <p>KEEP UP TO DATE</p>
+          <p></p>
+          <form>
+            <input type="email" placeholder="Enter Email Id" />
+            <button>SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer1">
+          <ul>
+            <li>
+              <a href=""
+                ><span class="return"
+                  ><i class="fas fa-undo-alt"></i>15 days return policy</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><span class="return"
+                  ><i class="fas fa-rupee-sign"></i>Cash on delivery*</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer1">
+          <p>DOWNLOAD THE APP</p>
+          <span>
+            <img
+              src="https://images.bewakoof.com/web/app_android_v1.png"
+              alt=""
+            />
+            <img src="https://images.bewakoof.com/web/app_ios_v1.png" alt="" />
+          </span>
+        </div>
+        <div class="footer1">
+          <p>100% SECURE PAYMENT</p>
+          <img
+            src="https://images.bewakoof.com/web/secure-payments-image.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
+
+      <div class="container">
+        <div>
+          <h3>MEN'S CLOTHING</h3>
+          <ul>
+            <li>
+              <a href="http://127.0.0.1:5500/shirt.html"><b>Top Wear</b></a>
+            </li>
+            <li><a href="">Men's New Arrivals</a></li>
+            <li><a href="">Men's Half Sleeve T-Shirts</a></li>
+            <li><a href="">Men's Hoodies & Sweatshirts</a></li>
+            <li><a href="">Men's Long Sleeve T-shirts</a></li>
+            <li><a href="">Men's Printed T-shirts</a></li>
+            <li><a href="">Men's Plain T-shirts</a></li>
+            <li><a href="">Men's Vests</a></li>
+            <li><a href="">Men's Polo T-Shirts</a></li>
+            <li><a href="">Men's Kurtas</a></li>
+            <li><a href="">Men's Combo T-Shirts</a></li>
+            <li><a href="">Men's Shirts</a></li>
+            <li><a href="">Men's Nightwear</a></li>
+            <li><a href="">Men's Plus Size Store</a></li>
+            <br />
+            <li>
+              <a href=""><b>Bottom Wear</b></a>
+            </li>
+            <li><a href="">Men's Pajamas</a></li>
+            <li><a href="">Men's Boxer Shorts</a></li>
+            <li><a href="">Men's Shorts</a></li>
+            <li><a href="">Men's Track Pants</a></li>
+            <li><a href="">Men's Pants</a></li>
+            <br />
+            <li>
+              <a href=""><b>Featured</b></a>
+            </li>
+            <li><a href="">Men's Flip Flops</a></li>
+            <li><a href="">Men's Sliders</a></li>
+            <li><a href="">Marvel T-Shirts</a></li>
+            <li><a href="">Disney T-Shirts</a></li>
+            <li><a href="">Avengers T-Shirts</a></li>
+            <li><a href="">Star Wars T-Shirts</a></li>
+            <li><a href="">Batman T-Shirts</a></li>
+            <li><a href="">Superman T-Shirts</a></li>
+            <li><a href="">Joker T-Shirts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>WOMEN'S CLOTHING</h3>
+          <ul>
+            <li>
+              <a href=""><b>Women's Top Wear</b></a>
+            </li>
+            <li><a href="">Women's New Arrivals</a></li>
+            <li><a href="">Women's T-Shirts</a></li>
+            <li><a href="">Women's Hoodies & Sweatshirts</a></li>
+            <li><a href="">Women's Dresses</a></li>
+            <li><a href="">Women's 3/4 Sleeve T-Shirts</a></li>
+            <li><a href="">Women's Kurtis</a></li>
+            <li><a href="">Women's Combo T-Shirts</a></li>
+            <li><a href="">Women's Nightwear</a></li>
+            <li><a href="">Women's Plus Size Store</a></li>
+            <br />
+            <li>
+              <a href=""><b>Women's Bottom Wear</b></a>
+            </li>
+            <li><a href="">Women's Pajamas</a></li>
+            <li><a href="">Women's Boxer Shorts</a></li>
+            <li><a href="">Women's Jeans</a></li>
+            <li><a href="">Women's Joggers</a></li>
+            <li><a href="">Women's Shorts</a></li>
+            <br />
+            <li>
+              <a href=""><b>BAGS</b></a>
+            </li>
+            <li><a href="">Laptop Bags</a></li>
+            <li><a href="">Small Backpacks</a></li>
+            <br />
+            <li>
+              <a href=""><b>Featured</b></a>
+            </li>
+            <li><a href="">Women's Slides</a></li>
+            <li><a href="">Women's Flip Flop's</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>MOBILE COVERS</h3>
+          <ul>
+            <li>
+              <a href=""><b>Brands</b></a>
+            </li>
+            <li><a href="">Apple</a></li>
+            <li><a href="">Realme</a></li>
+            <li><a href="">Samsung</a></li>
+            <li><a href="">Xiaomi</a></li>
+            <li><a href="">OnePlus</a></li>
+            <li><a href="">Vivo</a></li>
+            <li><a href="">Oppo</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href=""><h2>FANBOOK</h2></a>
+            </li>
+            <li>
+              <a href=""><h2>OFFERS</h2></a>
+            </li>
+            <li>
+              <a href=""><h2>SITEMAP</h2></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----- Footer End ----- -->
+    <!-- ---------------------  -->
+  </body>
+</html>
+<script src="./js/nav.js"></script>
+<script src="./js/wshirts.js"></script>
+<script src="./js/footer.js"></script>
