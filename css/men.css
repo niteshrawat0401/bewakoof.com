@@ -1,0 +1,125 @@
+#container{
+    /* border: 1px solid red; */
+   height: 100%;
+    width: 79%;
+    margin: auto;    
+}
+
+.home{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 19%;
+    align-items: center;
+    display: flex;
+    gap: 11px;
+    margin-left: 30px;
+}
+
+.homemen{
+    /* border: 1px solid red; */
+    width: 50px;
+   margin-top: 20px;
+   margin-left: 22px;
+}
+
+.menclothing{
+    /* border: 1px solid red; */
+    height: 20px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 3px;   
+}
+.clothingcount{
+    height:62px ;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 100x;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5px;
+}
+
+.clothno{
+   /* border: 1px solid red; */
+   width: 15%; 
+   
+}
+
+.countofshirt{
+    /* border: 1px solid red; */
+    padding-top: 25px;
+    color: grey;
+    height: 35px;
+}
+.filter{
+    /* border: 1px solid red; */
+    height: 40px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.headfilter{
+    height: 40px;
+    padding-left: 55px;
+    color: grey;
+    font-weight: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dropbar{
+   margin-top: 15px;
+}
+#choosecloth{
+    /* border: 1px solid red; */
+    height: 50%;
+    display: flex;
+   
+}
+.innerbox{
+    /* border: 1px solid red; */
+    width: 25%;
+} 
+.innerbox>select{
+    border:0px;
+    background-color: transparent;
+    width: 80%;
+    height: 35px;
+    font-size: 16px;
+    margin-left: 52px;
+    
+}
+.sty{
+    border: 0px;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.innerbox1{
+    /* border: 1px solid blue ; */
+    /* width: 40%; */
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    /* grid-gap: 3%; */
+    gap: 30px;
+    margin-left: 45px;
+}
+
+.innerbox1>div>img{
+    width: 101%;
+    /* height: 300px; */
+
+}
+#shirtsname{
+    margin-top:1px;
+    margin-bottom: 2px;
+}
+#price{
+    margin-top:0px;
+    margin-bottom: 3px;
+}
+#member{
+    margin-top:2px;
+    background-color: rgb(211, 202, 202);
+}

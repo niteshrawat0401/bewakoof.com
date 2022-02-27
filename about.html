@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css" /> 
+</head>
+<style>
+    .maindiv{
+        width:90%;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .text{
+        font-family: sans-serif;
+        color:rgb(48, 47, 47);
+        font-size:50px;
+        margin-left:10%;
+        margin-bottom:2px;
+
+    }
+    .div1{
+        margin-left:5%;
+        width:30%;
+        float:left; 
+        border:1px solid white
+    }
+    .div2{
+        width:60%;
+        color:rgb(48, 47, 47);
+        font-size:20px;
+      
+
+    }
+    .ptag{
+        font-family:sans-serif;
+    }
+    .line{
+        background-color:yellow;
+        width:5%;
+        margin-left:10%;
+        border:2px solid yellow;
+    }
+    .maindiv1{
+        width:100%;
+        height:450px;
+        background-color: black;
+        font-size: 60px;
+        color:white;
+        text-align:center;
+        padding-top:100px;
+
+    }
+    .size{
+        width:100%;
+        height:750px;
+        border:2px solid white;
+    
+    }
+    .div3{
+       
+        margin-top:70px;
+        font-size:20px;
+       
+    }
+    .font{
+        font-family:sans-serif;
+        font-size:25px;
+        margin-left:25%;
+
+    }
+    .font2{
+        font-size:25px;
+        margin-left:25%;
+    }
+    .font3{
+        font-size:45px;
+        margin-left:25%;
+        
+    }
+    .font4{
+        font-size:20px;
+        margin-left:25%;
+    }
+    .font5{
+        text-align:center;
+       font-size: 30px;
+    }
+    .font6{
+        font-size:45px;
+        margin-left:25%;
+        font-family:sans-serif;
+        margin-bottom:0px;
+        color: #333333;
+    }
+    .font7{
+        font-size:25px;
+        text-align:center;
+        padding-top:0px;
+        
+    }
+    .minidiv1{
+        height: 200px;
+        width:280px;
+        float:left;
+        margin-left:70px;
+    }
+    .white{
+        background-color: white;
+        height:250px;
+        width:100%;
+    }
+    .div4{
+        width:70%;
+        height:300px;
+        font-size: 35px;
+        color:black;
+        text-align:center;
+        display:flex;
+        justify-content:center;
+        margin:auto;
+
+    }
+    .div5{
+        background-color: #fdd634;
+
+    }
+    .f1{
+        text-align:center;
+        padding-top:100px;
+        font-size:50px;
+    }
+    
+    
+/* Footer Style Start*/
+
+
+.container1{
+            margin: 40px 40px;
+            color: gold;
+            line-height: 1px;
+        }
+        .container1 h1{
+            padding-top: 50px;
+        }
+        .container{
+            display: flex;
+            width: 90%;
+            margin: 40px 40px;
+            justify-content: space-between;
+        }
+        .icons>span>i{
+            color: white;
+            margin-right: 20px;
+        }
+        ul{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0;
+        }
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .footer1>p{
+            color: gold;
+        }
+        
+        ul li {
+            list-style: none;
+            margin-bottom: 5px;
+            line-height: 23px;
+        }
+        
+        form input{
+            background-color: #181818;
+            border: transparent;
+            border-bottom: 1px solid gold;
+            font-size: 18px;
+        }
+        button{
+            background-color: gold;
+            border: transparent;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+        i{
+            padding-right: 10px;
+        }
+        hr{
+            width: 95%;
+            justify-content: center;
+        }
+        h3{
+            color: white;
+        }
+        h2{
+
+            color: #51ccc4;
+        }
+        .description-row{
+            width: 96%;
+            margin: auto;
+        }
+        .description-row>p{
+            color: white;
+            line-height: 20px;
+        }
+  
+  /* Footer Style End*/
+
+
+</style>
+<body>
+
+<!-- ----------------------------  -->
+    <!--  ----- Navbar Bar Start ----- -->
+    <div id="navigation">
+        <!-- Navbar Top -->
+        <div class="top-nav">
+          <!-- Navbar Top-left -->
+          <div class="top-left-nav">
+            <a href="">Offers</a>
+            <a href="">Fanbook</a>
+            <a href="">Download App</a>
+            <a href="">TriBe Membership</a>
+          </div>
+          <!-- Navbar Top-Right -->
+          <div class="top-right-nav">
+            <a href="">Contact Us</a>
+            <a href="">Track Order</a>
+          </div>
+        </div>
+  
+        <!-- Navbar Main-->
+        <div class="main-nav">
+          <div class="main-left-nav">
+            <a href="./index.html">
+              <img
+                src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"
+                alt="Bewakoof-Home-Logo"
+              />
+            </a>
+            <div class="main-center-nav">
+              <a href="./men.html">MEN</a>
+              <a href="./women.html">WOMEN</a>
+              <a href="./mobile.html">MOBILE COVERS</a>
+            </div>
+          </div>
+  
+          <div class="main-right-nav">
+            <input
+              type="text"
+              placeholder="Search by product, category or collection"
+            />
+            <div class="main-nav-cart">
+              <a href="">
+                <img
+                  src="https://images.bewakoof.com/web/heart-wishlist.png"
+                  alt="wish-list"
+                />
+              </a>
+              <a href="./cart.html"
+                ><img
+                  src="https://images.bewakoof.com/web/shopping-bag.png"
+                  alt="shopping-bag"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <script src="./js/nav.js"></script>
+  
+      <!-- ----- Navbar Bar End ----- -->
+      <!-- -------------------------  -->
+
+    <p class="text"> Our Story</p>
+    <hr class="line">
+    <div class="maindiv">
+        <div class="div1">
+            <img src="https://images.bewakoof.com/uploads/campaign/our-story-1501569294.png">
+         </div>
+        <div class="div2">
+           
+            <p class="ptag"> Our story starts with the name </p>
+            <h2 class="ptag">Bewakoof</h2>
+               
+             <p>
+                Society perceives Bewakoof as stupid. But what does society call Bewakoof?<br>
+                Often, it’s anything different or anything that’s done differently.<br><br>
+
+                Often when people have done the right thing, without caring about what society thinks, they have been called Bewakoof. These are the people who have changed the world and made it a better place.      	
+             </p>
+    
+         </div>
+
+    </div>
+    <div class="maindiv1">
+       <p>  Making an impact through <b>innovation,</b><br>
+       <b>honesty,</b>  and <b>thoughtfulness</b></p>
+   </div>
+   <div class="div3">
+ <p class="font">For us, Bewakoof is the spirit of looking at things differently.</p><br>
+ <p class="font4">Trying new things even when success is not guaranteed.</p>
+ <p class="font4">  Not stepping on others to get ahead.
+ <p class="font4"> Thinking about the benefit of others just as you’d think about your own.</p><br>
+ <p class="font4">This was the spirit on which Bewakoof was founded in 2012.
+
+    <p class="font4">With the belief that a business cannot be about financial gain alone.</p><br><br>
+
+
+<p class="font2">It is about making a positive impact. That’s what Bewakoof is about.</p><br>
+</div>
+    <div>
+        <img  class="size" src="https://images.bewakoof.com/uploads/campaign/out-story-innovation-mob-1501672209.png">
+    </div>
+<div class="div3">
+   <h3 class="font">Bewakoof is</h3> 
+  <p class="font3"> Distinctive fashion<br>
+   for the <b>contemporary Indian</b></p><br>
+
+ <p class="font2">with <b>In-house capabilities </b>in design, manufacturing, technology, data science, and <br>
+    marketing
+ </p>
+</div>
+<div class="white">
+ <div>
+    <div class="minidiv1"> <h3 class="font6">7 years</h3>
+    <p class="font5">of journey so far</p>
+    </div>
+   <div class="minidiv1"><h3 class="font6">250+</h3>
+    <p  class="font5">team-members</p></div>
+   <div class="minidiv1"><h3 class="font6">1 crore+</h3>
+    <p  class="font5">products sold!</p></div>
+   <div class="minidiv1"><h3 class="font6">60 Lakh+</h3>
+    <p  class="font5">app downloads</p></div>
+ </div>
+</div>
+<div class="div5">
+    <p class="f1">What makes us <b>Bewakoof</b> </p> 
+    <div class="div4">
+        
+        <div>
+            <h5>Innovative design</h5>
+            <p class="font7">Creating designs that are an extension of you.</p>
+        </div>
+        <div>
+            <h5>Direct to consumer model</h5>
+            <p class="font7">Bringing accessibility and value to everyday fashion.</p>
+        </div>
+        <div>
+            <h5>Homegrown</h5>
+            <p class="font7">Imagined in India, Made in India.</p>
+        </div>
+    
+    </div>
+
+ <!-- ------------------------  -->
+    <!--  ----- Footer Start ----- -->
+    <div style="background-color: black;">
+        <div class="container1">
+            <h1>Bewakoof</h1>
+        </div>
+    
+        
+        <div class="container">
+            
+            <div class="footer1">
+                <p>CUSTOMER SERVICE</p>
+                <ul>
+                    <li><a href="1.html">Contact Us</a></li>
+                    <li><a href="">Track Order</a></li>
+                    <li><a href="">Return Order</a></li>
+                    <li><a href="">Cancel Order</a></li>
+                </ul>
+            </div>
+            <div class="footer1">
+                <p>COMPANY</p>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">We're Hiring</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer1">
+                <p>CONNECT WITH US</p>
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-square"></i>  4.7M People Like this</a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i>  1M Followers</a></li>
+                    <div class="icons">
+                        <span>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-snapchat"></i>
+                            <i class="fab fa-apple"></i>
+                        </span>
+                    </div>
+                </ul>
+            </div>
+            <div class="footer1">
+                <p>KEEP UP TO DATE<p>
+                <form >
+                    <input type="email" placeholder="Enter Email Id">
+                    <button>SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    
+      
+    
+        <div class="container">
+            <div class="footer1">
+                <ul>
+                    <li><a href=""><span class="return"><i class="fas fa-undo-alt"></i>15 days return policy</span></a></li>
+                    <li><a href=""><span class="return"><i class="fas fa-rupee-sign"></i>Cash on delivery*</span></a></li>
+                </ul>
+                
+            </div>
+            <div class="footer1">
+                <p>DOWNLOAD THE APP</p>
+                <span>
+                    <img src="https://images.bewakoof.com/web/app_android_v1.png" alt="">
+                    <img src="https://images.bewakoof.com/web/app_ios_v1.png" alt="">
+                </span>
+            </div>
+            <div class="footer1">
+                <p>100% SECURE PAYMENT</p>
+                <img src="https://images.bewakoof.com/web/secure-payments-image.png" alt="">
+            </div>
+        </div>
+        <hr>
+    
+        <div class="container">
+            <div>
+                <h3>MEN'S CLOTHING</h3>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/shirt.html"><b>Top Wear</b></a></li>
+                    <li><a href="">Men's New Arrivals</a></li>
+                    <li><a href="">Men's Half Sleeve T-Shirts</a></li>
+                    <li><a href="">Men's Hoodies & Sweatshirts</a></li>
+                    <li><a href="">Men's Long Sleeve T-shirts</a></li>
+                    <li><a href="">Men's Printed T-shirts</a></li>
+                    <li><a href="">Men's Plain T-shirts</a></li>
+                    <li><a href="">Men's Vests</a></li>
+                    <li><a href="">Men's Polo T-Shirts</a></li>
+                    <li><a href="">Men's Kurtas</a></li>
+                    <li><a href="">Men's Combo T-Shirts</a></li>
+                    <li><a href="">Men's Shirts</a></li>
+                    <li><a href="">Men's Nightwear</a></li>
+                    <li><a href="">Men's Plus Size Store</a></li>
+                    <br>
+                    <li><a href=""><b>Bottom Wear</b></a></li>
+                    <li><a href="">Men's Pajamas</a></li>
+                    <li><a href="">Men's Boxer Shorts</a></li>
+                    <li><a href="">Men's Shorts</a></li>
+                    <li><a href="">Men's Track Pants</a></li>
+                    <li><a href="">Men's Pants</a></li>
+                    <br>
+                    <li><a href=""><b>Featured</b></a></li>
+                    <li><a href="">Men's Flip Flops</a></li>
+                    <li><a href="">Men's Sliders</a></li>
+                    <li><a href="">Marvel T-Shirts</a></li>
+                    <li><a href="">Disney T-Shirts</a></li>
+                    <li><a href="">Avengers T-Shirts</a></li>
+                    <li><a href="">Star Wars T-Shirts</a></li>
+                    <li><a href="">Batman T-Shirts</a></li>
+                    <li><a href="">Superman T-Shirts</a></li>
+                    <li><a href="">Joker T-Shirts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>WOMEN'S CLOTHING</h3>
+                <ul>
+                    <li><a href=""><b>Women's Top Wear</b></a></li>
+                    <li><a href="">Women's New Arrivals</a></li>
+                    <li><a href="">Women's T-Shirts</a></li>
+                    <li><a href="">Women's Hoodies & Sweatshirts</a></li>
+                    <li><a href="">Women's Dresses</a></li>
+                    <li><a href="">Women's 3/4 Sleeve T-Shirts</a></li>
+                    <li><a href="">Women's Kurtis</a></li>
+                    <li><a href="">Women's Combo T-Shirts</a></li>
+                    <li><a href="">Women's Nightwear</a></li>
+                    <li><a href="">Women's Plus Size Store</a></li>
+                    <br>
+                    <li><a href=""><b>Women's Bottom Wear</b></a></li>
+                    <li><a href="">Women's Pajamas</a></li>
+                    <li><a href="">Women's Boxer Shorts</a></li>
+                    <li><a href="">Women's Jeans</a></li>
+                    <li><a href="">Women's Joggers</a></li>
+                    <li><a href="">Women's Shorts</a></li>
+                    <br>
+                    <li><a href=""><b>BAGS</b></a></li>
+                    <li><a href="">Laptop Bags</a></li>
+                    <li><a href="">Small Backpacks</a></li>
+                    <br>
+                    <li><a href=""><b>Featured</b></a></li>
+                    <li><a href="">Women's Slides</a></li>
+                    <li><a href="">Women's Flip Flop's</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>MOBILE COVERS</h3>
+                <ul>
+                    <li><a href=""><b>Brands</b></a></li>
+                    <li><a href="">Apple</a></li>
+                    <li><a href="">Realme</a></li>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Xiaomi</a></li>
+                    <li><a href="">OnePlus</a></li>
+                    <li><a href="">Vivo</a></li>
+                    <li><a href="">Oppo</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href=""><h2>FANBOOK</h2></a></li>
+                    <li><a href=""><h2>OFFERS</h2></a></li>
+                    <li><a href=""><h2>SITEMAP</h2></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <!-- ----- Footer End ----- -->
+    <!-- ---------------------  -->  
+
+</div>

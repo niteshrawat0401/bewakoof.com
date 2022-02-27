@@ -42,7 +42,8 @@ function processUser(event) {
     //If the Username and Password match
     else if (check[0].password == pass) {
       alert("Logging in");
-      window.location = "./index.html";
+      window.location.href =
+        "https://abhinavbisht94.github.io/bewakoof-clone-u2/index.html";
     }
   }
   //If input form has username or password missing
