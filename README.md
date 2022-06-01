@@ -11,3 +11,24 @@ Github ripository : https://github.com/niteshrawat0401/bewakoof.com
 
 Github hosted website link : https://abhinavbisht94.github.io/bewakoof-clone-u2
 
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*KZindCzL5cCBPGph-t5ETA.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*wNYwqMcC43ROlTSn8mJQ4Q.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*JpT0MONUJbofVNrhJ3m4Sg.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*2bvZzIWmYtxWjNqF2mK6eQ.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*k3oUc1hcNcKh9J9yOVEWIQ.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*vI5UJOr-snYm30itWA_2Sw.png">
+
+<br/>
+<img src="https://miro.medium.com/max/700/1*KP_WfxwraQbld2ORBGYgJQ.png">
